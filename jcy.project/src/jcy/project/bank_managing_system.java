@@ -13,7 +13,7 @@ package jcy.project;
 		        boolean run =true;
 		        while(run) { //run이 true일 동안 반복
 			      System.out.println("-------------------------------------");
-			      System.out.println("1.계좌생성|2.계좌목록조회|3.예금|4.출금|5.종료");
+			      System.out.println(" 1.계좌생성\n 2.계좌목록조회\n 3.예금\n 4.출금\n 5.종료");
 			      System.out.println("-------------------------------------");
 		          System.out.print("선택(숫자만 입력하세요.)>");
 		          int caseNo = scan.nextInt();
