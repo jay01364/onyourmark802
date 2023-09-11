@@ -6,11 +6,8 @@ package jcy.project;
 	/* (Banking)
 	 */
 	public class bank_managing_system {
-		private static Account[] accountArray = new Account[100];
 	    private static Scanner scan = new Scanner(System.in); //입력받기
-	    private static final String PREFIX = "Bank-"; //
-	    private static int seq=0;//계좌번호 자동발번 순서
-	    private static boolean isCreated=false;//계좌등록여부 
+	  
 	    
 		public static void main (String[] args) {
 		        boolean run =true;
